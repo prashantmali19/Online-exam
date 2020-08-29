@@ -1,0 +1,64 @@
+[
+    {
+      "id": 1,
+      "question": "What is the full form of RAM ?",
+      "answer": "Random Access Memory",
+      "optionA": "Random Access Memory",
+      "optionB":  "Randomely Access Memory",
+      "optionC": "Run Aceapt Memory",
+      "optionD": "None of these"
+      
+    },
+    {
+      "id": 2,
+      "question": "What is the full form of CPU?",
+      "answer": "Central Processing Unit",
+      "optionA":"Central Program Unit",
+      "optionB":"Central Processing Unit",
+      "optionC":"Central Preload Unit",
+      "optionD":  "None of these"
+      
+    },
+    {
+      "id": 3,
+      "question": "What is the full form of E-mail",
+      "answer": "Electronic Mail",
+      "optionA":"Electronic Mail",
+      "optionB": "Electric Mail",
+      "optionC": "Engine Mail",
+      "optionD": "None of these"
+      
+    },
+
+
+    {
+      "id": 4,
+      "question": "What is the full form of RAM ?",
+      "answer": "Random Access Memory",
+      "optionA": "Random Access Memory",
+      "optionB":  "Randomely Access Memory",
+      "optionC": "Run Aceapt Memory",
+      "optionD": "None of these"
+      
+    },
+    {
+      "id": 5,
+      "question": "What is the full form of CPU?",
+      "answer": "Central Processing Unit",
+      "optionA":"Central Program Unit",
+      "optionB":"Central Processing Unit",
+      "optionC":"Central Preload Unit",
+      "optionD":  "None of these"
+      
+    },
+    {
+      "id": 6,
+      "question": "What is the full form of E-mail",
+      "answer": "Electronic Mail",
+      "optionA":"Electronic Mail",
+      "optionB": "Electric Mail",
+      "optionC": "Engine Mail",
+      "optionD": "None of these"
+      
+    }
+  ]

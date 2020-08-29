@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+   
+</head>
+<body>
+    <header>
+            <div class="container container-nav">
+            <div class="site-title">
+                <h1>ONlineExam</h1>
+                <p class="subtitle">Study with the right friend ....</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="current-page">Home</a></li>
+                    <li><a href="#">Profile</a></li>
+                    <li><a th:href="@{/viewCategory}" >View Catagory</a></li>
+                    <li><a href="#" >Exam</a></li>
+                    <li><a href="#" >Show Results</a></li>
+                    <li><a href="#" >About</a></li>
+                    <li><a href="#" >Contact</a></li>
+                    <li><a href="#" class="logout-btn">Logout</a></li>
+                    <li><span class="username" th:text="${#authentication.getPrincipal().getUsername()}" > Guest</span></li>
+                </ul>
+            </nav>
+    </div>
+    </header>
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet"
+	href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+<link rel="stylesheet" href="/css/register.css">
+<title>Document</title>
+</head>
+<body>
+	<form th:action="@{/saveRegister}">
+	<div class="wrapper">
+		<div class="title">Student Register Here</div>
+	
+
+		<div class="form">
+			<div class="input_field">
+				<input type="text" placeholder="Full Name" name="fullname" class="input"> <i
+					class="fas fa-user"></i>
+			</div>
+			<div class="input_field">
+				<input type="text" placeholder="Email" name="email" class="input"> <i
+					class="far fa-envelope"></i>
+			</div>
+			<div class="input_field">
+				<input type="text" placeholder="Phone Number" name="mobile" class="input">
+				<i class="fas fa-mobile"></i>
+			</div>
+
+			<div class="form">
+				<div class="input_field">
+					<input type="text" placeholder="User Name" name="username" class="input"> <i
+						class="fas fa-id-card"></i>
+				</div>
+
+
+				<div class="input_field">
+					<input type="password" placeholder="Password" name="password" class="input">
+					<i class="fas fa-lock"></i>
+				
+				</div>
+				
+				<div class="btn">
+					<input type="submit" value="Register"> 
+				</div>
+				
+			</div>
+		</div>
+		</form>
+</body>
+</html>

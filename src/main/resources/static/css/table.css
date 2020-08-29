@@ -1,0 +1,152 @@
+* {
+    font-family: sans-serif;
+   /* Change your font family */
+  }  
+  .content-table{
+    width: 60%;
+    border-collapse: collapse;
+    margin: 50px 20%;
+    font-size: 0.9em;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .content-table thead tr {
+    background-color: #2484dd;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+    font-size: 18px;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid ##2484dd;
+  }
+  
+  .content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #2484dd;
+  }
+  .a{
+    font-size: 20px;
+  }
+  .main{
+      display: block;
+  }
+  .side{
+      float: left;
+      width: 30%;
+  }
+
+  .manage-exam {
+    padding: 20px;
+    background: none;
+    border-collapse: collapse;
+    margin: 25px 20%;
+    font-size: 0.9em;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  }
+
+
+  input[type=text], input[type=password], input[type=date] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus ,
+  input[type=date]:focus
+  {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  
+  .registerbtn {
+    background-color: #1f76e7;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 45%;
+    opacity: 0.9;
+  }
+  
+  .registerbtn:hover {
+    opacity: 1;
+  }
+  
+  
+  a {
+    color: dodgerblue;
+  }
+  
+  
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  
+  
+  .option{
+  width: 48%;
+  display: inline-block;
+  }
+  
+  
+  
+  input[type=search] {
+    width: 60%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  input[type=seach]:focus
+  {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+   .search-btn {
+    background-color: #1f76e7;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+  }
+  
+  .search-btn:hover {
+    opacity: 1;
+    background-color: orange;
+  }
+  

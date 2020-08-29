@@ -1,0 +1,25 @@
+{
+
+    "people":[
+
+        {
+            "id":1,
+            "name":"prashant",
+            "city":"kolhapur"
+        },
+
+
+        {
+            "id":2,
+            "name":"Suraj",
+            "city":"Nipani"
+        },
+
+
+        {
+            "id":3,
+            "name":"omksr",
+            "city":"kolhapur"
+        }
+    ]
+}
